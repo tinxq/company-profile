@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
-    <section className="section">
+    <section className="section" id="Services">
       <h2>Our Services</h2>
       <div className="services-content">
         <div className="service-item">
