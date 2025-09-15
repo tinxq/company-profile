@@ -7,7 +7,7 @@ export default function TelecomServices() {
       <div className="telecom-card">
         <h1 className="telecom-title">Telecommunication Services</h1>
 
-        {/* Telecom Operator Services */}
+       
         <div className="telecom-section">
           <div className="telecom-section-header">Telecom Operator Services</div>
           <ul className="telecom-section-list">
@@ -19,7 +19,6 @@ export default function TelecomServices() {
           </ul>
         </div>
 
-        {/* Installations GSM */}
         <div className="telecom-section">
           <div className="telecom-section-header">Installations GSM</div>
           <ul className="telecom-section-list">
