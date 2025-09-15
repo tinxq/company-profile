@@ -1,5 +1,4 @@
-import BageNavbar from "../components/BageNavbar";
-export default function TelecomServices() {
+
   return (
     <>
     <div className="telecom-page-container">
