@@ -5,7 +5,7 @@ function Contact() {
     <section id="contact" className="section">
       <h2>Get In Touch</h2>
       <p><strong>Phone:</strong></p>
-      <p><strong>Website:</strong> <a href="" target="_blank"></a></p>
+      <p><strong>Website:</strong></p>
       <p><strong>Address:</strong> Buraydah Al Qassim, Saudi Arabia</p>
     </section>
   );
