@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Vision from './components/Vision';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+
+import TelecomServices from './pages/TelecomServices';
+import CyberSecurity from './pages/CyberSecurity';
+import ICTManagement from './pages/ICTManagement';
+import SystemIntegration from './pages/SystemIntegration';
+import ELVSystems from './pages/ELVSystems';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="app">
+              <Navbar />
+              <Header />
+              <About />
+              <Vision />
+              <Services />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        />
+
+     
+        <Route path="/services/telecom" element={<TelecomServices />} />
+        <Route path="/services/cyber-security" element={<CyberSecurity />} />
+        <Route path="/services/ict" element={<ICTManagement />} />
+        <Route path="/services/system-integration" element={<SystemIntegration />} />
+        <Route path="/services/elv" element={<ELVSystems />} />
+      </Routes>
+    </Router>
   );
 }
 
