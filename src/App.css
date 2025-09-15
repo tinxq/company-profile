@@ -342,8 +342,9 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
+        gap: 20px;
     }
 
     .navbar ul li {
