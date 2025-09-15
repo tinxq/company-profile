@@ -11,11 +11,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 
-import TelecomServices from './pages/TelecomServices';
-import CyberSecurity from './pages/CyberSecurity';
-import ICTManagement from './pages/ICTManagement';
-import SystemIntegration from './pages/SystemIntegration';
-import ELVSystems from './pages/ELVSystems';
+import TelecomServices from './services/TelecomServices';
+import CyberSecurity from './services/CyberSecurity';
+import ICTManagement from './services/ICTManagement';
+import SystemIntegration from './services/SystemIntegration';
+import ELVSystems from './services/ELVSystems';
 
 import './App.css';
 

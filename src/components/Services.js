@@ -1,30 +1,40 @@
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Services() {
+export default function ServicesButton() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <section className="section" id="Services">
       <h2>Our Services</h2>
-      <div className="services-content">
-        <div className="service-item">
-          <h3>Telecommunication Services</h3>
-          <Link to="/services/telecom" className="read-more">See More</Link>
-        </div>
-        <div className="service-item">
-          <h3>Cyber Security</h3>
-          <Link to="/services/cyber-security" className="read-more">See More</Link>
-        </div>
-        <div className="service-item">
-          <h3>ICT Management</h3>
-          <Link to="/services/ict" className="read-more">See More</Link>
-        </div>
-        <div className="service-item">
-          <h3>System Integration</h3>
-          <Link to="/services/system-integration" className="read-more">See More</Link>
-        </div>
-        <div className="service-item">
-          <h3>ELV Systems</h3>
-          <Link to="/services/elv" className="read-more">See More</Link>
-        </div>
+      <div className="services-button">
+        <button className="dropdown-btn" onClick={toggleDropdown}>
+          View All Services
+        </button>
+
+        {isOpen && (
+          <div className="dropdown-cards">
+            <Link to="/services/telecom" className="service-card">
+              Telecom Services
+            </Link>
+            <Link to="/services/cyber-security" className="service-card">
+              Cyber Security
+            </Link>
+            <Link to="/services/ict" className="service-card">
+              ICT Management
+            </Link>
+            <Link to="/services/system-integration" className="service-card">
+              System Integration
+            </Link>
+            <Link to="/services/elv" className="service-card">
+              ELV Systems
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );
