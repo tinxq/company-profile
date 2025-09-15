@@ -2,7 +2,6 @@ import BageNavbar from "../components/BageNavbar";
 export default function TelecomServices() {
   return (
     <>
-    <BageNavbar />
     <div className="telecom-page-container">
   
       <div className="telecom-card">

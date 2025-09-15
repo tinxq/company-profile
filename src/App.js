@@ -10,7 +10,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-
+import AllServices from './components/AllServices';
 import TelecomServices from './services/TelecomServices';
 import CyberSecurity from './services/CyberSecurity';
 import ICTManagement from './services/ICTManagement';
@@ -38,7 +38,7 @@ function App() {
           }
         />
 
-     
+                 <Route path="/all-services" element={<AllServices />} />
         <Route path="/services/telecom" element={<TelecomServices />} />
         <Route path="/services/cyber-security" element={<CyberSecurity />} />
         <Route path="/services/ict" element={<ICTManagement />} />

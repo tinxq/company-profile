@@ -1,8 +1,7 @@
-import BageNavbar from "../components/BageNavbar";
+
 export default function CyberSecurity() {
   return (
     <>
-    <BageNavbar />
     <div className="page-container">
       <div className="card">
         <h1 className="title">Cyber Security Services</h1>

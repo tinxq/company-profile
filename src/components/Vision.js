@@ -41,7 +41,6 @@ customers, and carry out business with
 the best professionalism.</p>
         </div>
       </div>
-      <img src="/target-gears.jpg" alt="Vision Goals" className="section-image" />
     </section>
   );
 }
