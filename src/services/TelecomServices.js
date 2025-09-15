@@ -1,4 +1,5 @@
 
+export default function TelecomServices() {
   return (
     <>
     <div className="telecom-page-container">
