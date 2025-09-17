@@ -73,7 +73,7 @@ body {
 
 /* ================= Bage Navbar ================= */
 .bage-navbar {
-  background-color: #1e3b8a;
+  background-color: #152758;
   padding: 12px 20px;
   position: sticky;
   top: 0;
@@ -166,7 +166,7 @@ body {
     flex-direction: column;
     display: none;
     width: 100%;
-    background-color: #1e3a8a;
+    background-color: #1c1b25a7;
     position: absolute;
     top: 100%;
     left: 0;
@@ -256,13 +256,13 @@ body {
 }
 
 .navbar .nav-menu li a:hover {
-  color: #3b82f6;
+  color: #3b83f61d;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 6px;
 }
 
 .navbar .nav-menu li a.active {
-  background-color: #3b82f6;
+  background-color: #3b83f62f;
   border-radius: 6px;
 }
 
@@ -276,7 +276,7 @@ body {
     flex-direction: column;
     display: none;
     width: 100%;
-    background-color: #1e3a8a;
+    background-color: #1e3b8a34;
     position: absolute;
     top: 100%;
     left: 0;
