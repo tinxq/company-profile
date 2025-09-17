@@ -77,9 +77,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* عرض أقصى للتناسق */
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+
 }
 
 .services-counter {
@@ -94,20 +95,18 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    display: none; /* مخفي في الشاشات الكبيرة */
+    display: none;
 }
 
-.hamburger-icon {
-    font-size: 20px;
-}
 
 .nav-links {
     list-style: none;
     display: flex;
-    justify-content: flex-end; /* محاذاة لليمين */
+    justify-content: flex-end; 
     margin: 0;
     padding: 0;
     transition: all 0.3s ease;
+
 }
 
 .nav-links li {
@@ -127,15 +126,15 @@ body {
     color: #00aaff;
 }
 
-/* تنسيق للشاشات الصغيرة */
+
 @media (max-width: 768px) {
     .menu-button {
-        display: block; /* الزر يظهر في الشاشات الصغيرة */
+        display: block; 
     }
 
     .nav-links {
-        display: none; /* القائمة مخفية افتراضيًا */
-        flex-direction: row; /* تبقى أفقية حتى في الشاشات الصغيرة */
+        display: none; 
+        flex-direction: row; 
         justify-content: flex-end;
         width: 100%;
         background-color: #0056b3;
@@ -143,11 +142,12 @@ body {
     }
 
     .nav-links.open {
-        display: flex; /* القائمة تظهر لما تكون open */
+        display: flex; 
     }
 
     .nav-links li {
-        margin: 0 10px; /* تقليل المسافات في الشاشات الصغيرة */
+        margin: 0 10px; 
+        margin-left: -6px;
     }
 }
 

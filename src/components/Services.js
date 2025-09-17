@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 export default function ServicesButton() {
-  const navigate = useNavigate(); // خلي navigate هنا بدل OtherPage
+  const navigate = useNavigate(); 
 
   const goToAllServices = () => {
     navigate("/all-services");

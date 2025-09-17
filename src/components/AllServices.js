@@ -12,15 +12,15 @@ export default function AllServices() {
 
   const renderService = () => {
     switch (selectedService) {
-      case "Telecom Services":
+      case "Telecom":
         return <TelecomServices />;
-      case "Cyber Security":
+      case "Cyber":
         return <CyberSecurity />;
-      case "ICT Management":
+      case "ICT":
         return <ICTManagement />;
-      case "System Integration":
+      case "Integration":
         return <SystemIntegration />;
-      case "ELV Systems":
+      case "ELV":
         return <ELVSystems />;
       default:
         return <TelecomServices />;
