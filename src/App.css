@@ -28,7 +28,7 @@ body {
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-top: -30%;
+  margin-top: -10%;
 }
 
 .hero::before {
@@ -73,7 +73,7 @@ body {
 
 /* ================= Bage Navbar ================= */
 .bage-navbar {
-  background-color: #1e3a8a;
+  background-color: #1e3b8a;
   padding: 12px 20px;
   position: sticky;
   top: 0;
@@ -500,7 +500,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
   padding: 40px 20px;
 }
 
