@@ -12,41 +12,26 @@ export default function TelecomServices() {
           <div className="telecom-section-header">Telecom Operator Services</div>
           <ul className="telecom-section-list">
             <li>Wireless Access Networks</li>
+            <li><img src="/imgs/img1.jpg"/></li>
             <li>Fixed Access Networks</li>
+            <li><img src="/imgs/img2.jpg"/></li>
             <li>Core Networks</li>
+            <li><img src="/imgs/img3.jpg"/></li>
             <li>Transport Networks</li>
+            <li><img src="/imgs/img4.jpg"/></li>
             <li>In Building Solution</li>
+            <li><img src="/imgs/img6.jpg"/></li>
+            <li><img src="/imgs/img5.png"/></li>
           </ul>
         </div>
 
         <div className="telecom-section">
-          <div className="telecom-section-header">Installations GSM</div>
+          <div className="telecom-section-header">Installations</div>
           <ul className="telecom-section-list">
-            <li>Junpir</li>
-            <li>Power</li>
-            <li>Feeder</li>
             <li>Microwave link</li>
-          </ul>
-        </div>
-
-        {/* Power */}
-        <div className="telecom-section">
-          <div className="telecom-section-header">Power</div>
-          <ul className="telecom-section-list">
-            <li>Rectifier</li>
-            <li>BBU</li>
-            <li>DCDU</li>
-            <li>RTN</li>
-          </ul>
-        </div>
-
-        {/* Fiber & RF */}
-        <div className="telecom-section">
-          <div className="telecom-section-header">Fiber & RF</div>
-          <ul className="telecom-section-list">
-            <li>BBU</li>
-            <li>DCDU</li>
-            <li>RTN</li>
+            <li><img src="/imgs/img7.jpg"/></li>
+            <li>point to point</li>
+            <li><img src="/imgs/img8.jpg"/></li>
           </ul>
         </div>
 
