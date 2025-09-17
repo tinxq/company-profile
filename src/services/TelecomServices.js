@@ -23,7 +23,7 @@ export default function TelecomServices() {
   <li><img src="/imgs/img6.jpg" alt="In Building Solution illustration"/></li>
   <li><img src="/imgs/img5.png" alt="Additional telecom service illustration"/></li>
 </ul>
-
+</div>
 <div className="telecom-section">
   <div className="telecom-section-header">Installations</div>
   <ul className="telecom-section-list">
@@ -36,7 +36,6 @@ export default function TelecomServices() {
 
         <div className="telecom-footer-text">FIX ALARM CONFIG</div>
       </div>
-    </div>
     </div>
     </>
   );
