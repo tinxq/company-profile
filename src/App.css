@@ -396,12 +396,18 @@ footer {
 }
 
 .telecom-section-list li {
-  color: #4a5568;
+  color: #242d3d;
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 500;
 }
-
+.telecom-section  p {
+   background: #f0f4f7;
+  padding: 24px;
+  color: #4a5568;
+  line-height: 1.8;
+  font-size: clamp(14px, 2.5vw, 16px);
+}
 .telecom-section-list img {
   width: 100%;
   max-width: 450px;
