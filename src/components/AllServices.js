@@ -6,7 +6,7 @@ import CyberSecurity from "../services/CyberSecurity";
 import ICTManagement from "../services/ICTManagement";
 import SystemIntegration from "../services/SystemIntegration";
 import ELVSystems from "../services/ELVSystems";
-
+import FiberOptical from "../services/FiberOptical";
 export default function AllServices() {
   const [selectedService, setSelectedService] = useState("Telecom Services"); // افتراضي
 
@@ -24,6 +24,8 @@ export default function AllServices() {
         return <ELVSystems />;
       default:
         return <TelecomServices />;
+      case "Fiber":
+        return <FiberOptical />;
     }
   };
 

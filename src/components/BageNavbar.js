@@ -9,6 +9,7 @@ function BageNavbar({ selectedService, onSelect }) {
     "ICT",
     "Integration",
     "ELV",
+    "Fiber",
   ];
 
   const toggleMenu = () => setIsOpen(!isOpen);

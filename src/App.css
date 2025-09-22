@@ -1,8 +1,4 @@
-/* ========================================================= */
-/* ==================== GLOBAL STYLES ====================== */
-/* ========================================================= */
 
-/* Reset & General */
 * {
   margin: 0;
   padding: 0;
@@ -538,6 +534,341 @@ footer {
   background-color: #e2e8f0;
   margin: 40px 0;
 }
+
+/* --- Fiber Optical Page --- */
+.fiber-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f7f9;
+}
+
+.fiber-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  padding: 50px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.fiber-title {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 800;
+  color: #1a365d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+}
+
+.fiber-section {
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.fiber-section-header {
+  background: #2b6cb0;
+  color: #e2e8f0;
+  padding: 18px 24px;
+  font-weight: 700;
+  font-size: clamp(16px, 2.5vw, 20px);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fiber-section-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 24px;
+  background: #f0f4f7;
+}
+.fiber-section-content1{
+  display: flex;
+ flex-direction: column;
+  padding: 24px;
+  background: #f0f4f7;
+}
+
+.fiber-section-list {
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fiber-section-list li {
+  color: #4a5568;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.fiber-sublist li {
+  color: #718ab5;
+  line-height: 1.8;
+  margin-bottom: 8px;
+  font-size: 0.775rem; /* Smaller font size for sublist items */
+}
+.fiber-image1 {
+  margin-left: 20px;
+  flex-shrink: 0;
+ display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.fiber-image img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fiber-image1 img {
+width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 15px auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.fiber-image2 img {
+width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 15px auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.fiber-image img:hover {
+  transform: scale(1.02);
+}
+ 
+.hexagon1 {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border: 5px  solid #657990;
+  border-radius: 10px 50px; 
+  box-shadow: 0 4px 15px rgba(5, 3, 140, 0.2);
+  margin-bottom: 9%;
+  width: 130px;
+  margin-left: 50px
+}
+.gon2 {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border: 5px solid #657990;
+  border-radius: 10px 50px; 
+  box-shadow: 0 4px 15px rgba(5, 3, 140, 0.2);
+  margin-bottom: 9%;
+  width: 130px;
+  margin-right: 50px;
+}
+
+
+
+.network {
+  position: relative;
+}
+
+.network img {
+  max-width: 200px; 
+}
+
+
+.network::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.fiber-footer-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.fiber-divider {
+  border: none;
+  height: 2px;
+  background-color: #e2e8f0;
+  margin: 40px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.elv-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  padding: 50px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.elv-title {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 800;
+  color: #1a365d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+}
+
+.elv-section {
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.elv-section-header {
+  background: #2b6cb0;
+  color: #e2e8f0;
+  padding: 18px 24px;
+  font-weight: 700;
+  font-size: clamp(16px, 2.5vw, 20px);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.elv-section-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 24px;
+  background: #f0f4f7;
+}
+
+.elv-section-text {
+  font-size: clamp(14px, 2vw, 18px);
+  line-height: 1.8;
+  color: #2d3748;
+}
+/* --- System Integration Page --- */
+.system-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f7f9;
+}
+
+.system-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  padding: 50px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.system-title {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 800;
+  color: #1a365d;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+}
+
+.system-section {
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.system-section-header {
+  background: #2b6cb0;
+  color: #e2e8f0;
+  padding: 18px 24px;
+  font-weight: 700;
+  font-size: clamp(16px, 2.5vw, 20px);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.system-section-content p {
+  background: #f0f4f7;
+  padding: 24px;
+  color: #4a5568;
+  line-height: 1.8;
+  font-size: clamp(14px, 2.5vw, 16px);
+}
+
+.system-footer-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.system-divider {
+  border: none;
+  height: 2px;
+  background-color: #e2e8f0;
+  margin: 40px 0;
+}
+
+.system-card img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.system-card img:hover {
+  transform: scale(1.02);
+}
+
+/* --- Animation --- */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
 /* ========================================================= */
 /* ==================== RESPONSIVE DESIGN ================== */
 /* ========================================================= */

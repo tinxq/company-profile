@@ -16,6 +16,7 @@ export default function ServicesButton() {
         <div className="service-card">ICT Management</div>
         <div className="service-card">System Integration</div>
         <div className="service-card">ELV Systems</div>
+        <div className="service-card">Fiber Optical</div>
       </div>
       <div className="services-button">
         <button onClick={goToAllServices}> view all services </button>

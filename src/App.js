@@ -15,6 +15,7 @@ import CyberSecurity from './services/CyberSecurity';
 import ICTManagement from './services/ICTManagement';
 import SystemIntegration from './services/SystemIntegration';
 import ELVSystems from './services/ELVSystems';
+import FiberOptical from './services/FiberOptical';
 
 import './App.css';
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/services/ict" element={<ICTManagement />} />
         <Route path="/services/system-integration" element={<SystemIntegration />} />
         <Route path="/services/elv" element={<ELVSystems />} />
+        <Route path="/services/fiber-optical" element={<FiberOptical />} />
       </Routes>
     </Router>
   );
