@@ -543,11 +543,11 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  background-color: #f4f7f9;
+  background-color: #f4f7f9; /* Matches cybersecurity-page-container */
 }
 
 .fiber-card {
-  background: #ffffff;
+  background: #ffffff; /* Matches cybersecurity-card */
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
@@ -560,7 +560,7 @@ footer {
   text-align: center;
   font-size: clamp(28px, 5vw, 40px);
   font-weight: 800;
-  color: #1a365d;
+  color: #1a365d; /* Matches cybersecurity-title */
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 40px;
@@ -574,8 +574,8 @@ footer {
 }
 
 .fiber-section-header {
-  background: #2b6cb0;
-  color: #e2e8f0;
+  background: #2b6cb0; /* Matches cybersecurity-section-header */
+  color: #e2e8f0; /* Matches cybersecurity-section-header */
   padding: 18px 24px;
   font-weight: 700;
   font-size: clamp(16px, 2.5vw, 20px);
@@ -587,13 +587,14 @@ footer {
   display: flex;
   align-items: flex-start;
   padding: 24px;
-  background: #f0f4f7;
+  background: #f0f4f7; /* Matches cybersecurity-section */
 }
-.fiber-section-content1{
+
+.fiber-section-content1 {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   padding: 24px;
-  background: #f0f4f7;
+  background: #f0f4f7; /* Matches cybersecurity-section */
 }
 
 .fiber-section-list {
@@ -602,8 +603,9 @@ footer {
   margin: 0;
   padding: 0;
 }
+
 .fiber-section-list li {
-  color: #4a5568;
+  color: #4a5568; /* Matches cybersecurity-section p */
   line-height: 1.8;
   font-size: 1rem;
   margin-bottom: 8px;
@@ -611,117 +613,116 @@ footer {
 }
 
 .fiber-sublist li {
-  color: #718ab5;
+  color: #718ab5; /* Matches fiber-sublist */
   line-height: 1.8;
   margin-bottom: 8px;
-  font-size: 0.775rem; /* Smaller font size for sublist items */
-}
-.fiber-image1 {
-  margin-left: 20px;
-  flex-shrink: 0;
- display: flex;
-  flex-direction: column;
-  gap: 50px;
-
+  font-size: 0.775rem;
 }
 
-.fiber-image img {
-  max-width: 150px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+.fiber-imges {
+  display: flex;
+  flex-direction: row; /* Images side by side */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  gap: 20px; /* Space between images */
+  justify-content: center; /* Center images horizontally */
+  margin-top: 15px; /* Space above images */
 }
 
-.fiber-image1 img {
-width: 100%;
-  max-width: 450px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-  margin: 15px auto;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
 .fiber-image2 img {
-width: 100%;
-  max-width: 450px;
+  width: 100%;
+  max-width: 450px; /* Matches cybersecurity-section-list img */
   height: auto;
   object-fit: cover;
   border-radius: 12px;
   display: block;
-  margin: 15px auto;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center images */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Matches cybersecurity-section-list img */
   transition: transform 0.3s ease;
 }
-.fiber-image img:hover {
-  transform: scale(1.02);
-}
- 
-.hexagon1 {
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-  border: 5px  solid #657990;
-  border-radius: 10px 50px; 
-  box-shadow: 0 4px 15px rgba(5, 3, 140, 0.2);
-  margin-bottom: 9%;
-  width: 130px;
-  margin-left: 50px
-}
-.gon2 {
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-  border: 5px solid #657990;
-  border-radius: 10px 50px; 
-  box-shadow: 0 4px 15px rgba(5, 3, 140, 0.2);
-  margin-bottom: 9%;
-  width: 130px;
-  margin-right: 50px;
-}
 
-
-
-.network {
-  position: relative;
-}
-
-.network img {
-  max-width: 200px; 
-}
-
-
-.network::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-  z-index: -1;
+.fiber-image2 img:hover {
+  transform: scale(1.02); /* Matches cybersecurity-section-list img */
 }
 
 .fiber-footer-text {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  color: #718096;
+  color: #718096; /* Matches cybersecurity-footer-text */
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid #e2e8f0; /* Matches cybersecurity-footer-text */
 }
 
 .fiber-divider {
   border: none;
   height: 2px;
-  background-color: #e2e8f0;
+  background-color: #e2e8f0; /* Matches cybersecurity-divider */
   margin: 40px 0;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Responsive Design for Fiber Images */
+@media (max-width: 768px) {
+  .fiber-page-container {
+    padding: 24px 15px;
+  }
+
+  .fiber-card {
+    padding: 24px;
+  }
+
+  .fiber-title {
+    font-size: clamp(18px, 3vw, 22px); /* Matches cybersecurity-title */
+  }
+
+  .fiber-section-header {
+    padding: 14px 20px;
+    font-size: clamp(14px, 3vw, 18px); /* Matches cybersecurity-section-header */
+  }
+
+  .fiber-section-content {
+    flex-direction: column; /* Stack content vertically on mobile */
+    align-items: center;
+  }
+
+  .fiber-imges {
+    flex-direction: column; /* Stack images vertically on mobile */
+    gap: 15px; /* Reduced gap for mobile */
+  }
+
+  .fiber-image2 img {
+    max-width: 100%; /* Ensure images scale down on smaller screens */
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .fiber-card {
+    padding: 15px;
+  }
+
+  .fiber-image2 img {
+    max-width: 100%;
+  }
+
+  .fiber-footer-text {
+    font-size: 13px; /* Matches cybersecurity-footer-text */
+    margin-top: 30px;
+  }
+
+  .fiber-divider {
+    margin: 30px 0; /* Matches cybersecurity-divider */
+  }
+}
+.elv-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f7f9;
 }
 
 .elv-card {
@@ -762,16 +763,87 @@ width: 100%;
 }
 
 .elv-section-content {
-  display: flex;
-  align-items: flex-start;
   padding: 24px;
   background: #f0f4f7;
 }
 
 .elv-section-text {
-  font-size: clamp(14px, 2vw, 18px);
+  color: #4a5568;
   line-height: 1.8;
-  color: #2d3748;
+  font-size: clamp(14px, 2.5vw, 16px);
+}
+
+.elv-footer-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.elv-divider {
+  border: none;
+  height: 2px;
+  background-color: #e2e8f0;
+  margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .elv-page-container {
+    padding: 24px 15px;
+  }
+
+  .elv-card {
+    padding: 24px;
+  }
+
+  .elv-title {
+    font-size: clamp(18px, 3vw, 22px);
+  }
+
+  .elv-section-header {
+    padding: 14px 20px;
+    font-size: clamp(14px, 3vw, 18px);
+  }
+
+  .elv-section-content {
+    padding: 20px;
+  }
+
+  .elv-section-text {
+    font-size: clamp(13px, 3vw, 15px);
+  }
+
+  .elv-footer-text {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .elv-divider {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .elv-card {
+    padding: 15px;
+  }
+
+  .elv-footer-text {
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .elv-divider {
+    margin: 30px 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 /* --- System Integration Page --- */
 .system-page-container {
@@ -829,6 +901,22 @@ width: 100%;
   font-size: clamp(14px, 2.5vw, 16px);
 }
 
+.system-card-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 15px auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.system-card-image:hover {
+  transform: scale(1.02);
+}
+
 .system-footer-text {
   text-align: center;
   font-size: 16px;
@@ -846,28 +934,54 @@ width: 100%;
   margin: 40px 0;
 }
 
-.system-card img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
-  transition: transform 0.3s ease;
+@media (max-width: 768px) {
+  .system-page-container {
+    padding: 24px 15px;
+  }
+
+  .system-card {
+    padding: 24px;
+  }
+
+  .system-title {
+    font-size: clamp(18px, 3vw, 22px);
+  }
+
+  .system-section-header {
+    padding: 14px 20px;
+    font-size: clamp(14px, 3vw, 18px);
+  }
+
+  .system-card-image {
+    max-width: 100%;
+    width: 100%;
+    margin: 10px auto;
+  }
 }
 
-.system-card img:hover {
-  transform: scale(1.02);
+@media (max-width: 480px) {
+  .system-card {
+    padding: 15px;
+  }
+
+  .system-card-image {
+    max-width: 100%;
+  }
+
+  .system-footer-text {
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .system-divider {
+    margin: 30px 0;
+  }
 }
 
-/* --- Animation --- */
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
-
 
 /* ========================================================= */
 /* ==================== RESPONSIVE DESIGN ================== */
@@ -926,7 +1040,7 @@ width: 100%;
     font-size: 18px;
   }
   
-  /* Sections */
+
   .vision-item, .service-item, .service-card {
     flex: 1 1 100%;
   }

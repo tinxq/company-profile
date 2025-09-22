@@ -25,7 +25,7 @@ const FiberOptical = () => {
         {/* Customers Section */}
         <div className="fiber-section">
           <div className="fiber-section-header">Typical FTTO Customers</div>
-          <div className="fiber-section-content">
+          <div className="fiber-section-content1">
             <ul className="fiber-section-list">
               <li>Hospitals (connection of patient rooms)</li>
               <li>Finance Banks</li>
@@ -36,12 +36,11 @@ const FiberOptical = () => {
               <li>Universities</li>
               <li>Listed Buildings</li>
             </ul>
-
             <div className="fiber-imges">
-            <div className="fiber-image hexagon1">
+            <div className="fiber-image2">
               <img src="/imgs/img20.jpg" alt="FTTO customers illustration" />
             </div>
-               <div className="fiber-image gon2">
+               <div className="fiber-image2">
               <img src="/imgs/img22.png" alt="FTTO illustration" />
             </div>
             </div>
