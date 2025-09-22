@@ -854,6 +854,7 @@ footer {
   align-items: center;
   padding: 40px 20px;
   background-color: #f4f7f9;
+  gap: 50px;
 }
 
 .system-card {
@@ -900,9 +901,17 @@ footer {
   line-height: 1.8;
   font-size: clamp(14px, 2.5vw, 16px);
 }
+.system-section-content{
 
+display: flex;
+flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  background: #f0f4f7; 
+
+}
 .system-card-image {
-  width: 100%;
+  width: 80%;
   max-width: 450px;
   height: auto;
   object-fit: cover;
