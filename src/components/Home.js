@@ -8,6 +8,7 @@ import Vision from './Vision';
 import Services from './Services';
 import Contact from './Contact';
 import Footer from './Footer';
+import Customers from './OurCustomers';
 
 import AllServices from './AllServices';
 import TelecomServices from '../services/TelecomServices';
@@ -43,6 +44,7 @@ function HomePage() {
       <About />
       <Vision />
       <Services />
+      <Customers />
       <Contact />
     </>
   );
