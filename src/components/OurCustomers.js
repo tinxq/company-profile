@@ -4,7 +4,7 @@ function OurCustomers() {
         <section id="customers" className="section">
             <h2>Our Customers</h2>
             <div className="customers-logos">
-                <img src="/imgs/customers.jpg" alt="Customer 1" className="customer-logo" />
+                <img src="/imgs/customers.png" alt="Customer 1" className="customer-logo" />
             </div>
         </section>
     );

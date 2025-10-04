@@ -1140,7 +1140,7 @@ flex-direction: column;
 
 .customer-logo {
   position: relative;
-  width: min(70vw, 500px);
+  width: min(90vw, 500px);
   height: auto;
   max-width: 100%;
   object-fit: contain;
