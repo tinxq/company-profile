@@ -35,7 +35,6 @@ const SystemIntegration = () => {
         
       </div>
 
-    
       <div className="system-card">
         <h1 className="system-title">Accountant Programmer</h1>
 
